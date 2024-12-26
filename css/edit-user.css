@@ -1,0 +1,74 @@
+.user-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .user-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-form label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .user-form input[type="text"],
+  .user-form input[type="number"],
+  .user-form textarea,
+  .user-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e8eeef;
+  }
+  
+  .user-form select {
+    height: 40px;
+  }
+  
+  .user-form input[type="submit"],
+  .user-form a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .user-form a {
+    background-color: #f44336;
+  }
+  
+  .user-form input[type="submit"]:hover,
+  .user-form a:hover {
+    background-color: #3e8e41;
+  }
+  
+  .user-form input[type="hidden"] {
+    display: none;
+  }
+  
+  .user-form span.error {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .user-form span.error-msg {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  

@@ -1,0 +1,40 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #b259ee;
+	padding: 20px;
+	color: #000000;
+}
+
+.logo img {
+	height: 50px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-left: auto;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #474747;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
